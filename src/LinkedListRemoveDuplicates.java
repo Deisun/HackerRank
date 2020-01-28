@@ -20,4 +20,9 @@ public class LinkedListRemoveDuplicates {
             node = node.next;
         }
     }
+
+    class LinkedListNode {
+        LinkedListNode next;
+        int data;
+    }
 }

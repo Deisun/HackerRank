@@ -15,5 +15,9 @@ public class BinarySearchTreeLeafNodes {
         }
     }
 
+    class Node {
+        Node leftChild;
+        Node rightChild;
+    }
 
 }
