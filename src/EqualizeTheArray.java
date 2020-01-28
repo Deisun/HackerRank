@@ -25,7 +25,6 @@ public class EqualizeTheArray {
             }
         }
 
-
         return arr.length - max;
     }
 }

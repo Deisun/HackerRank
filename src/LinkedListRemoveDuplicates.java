@@ -2,11 +2,11 @@ import java.util.HashSet;
 
 public class LinkedListRemoveDuplicates {
 
-    void deleteDuplicates(LinkedListNode node) {
+    void deleteDuplicates(Node node) {
         HashSet<Integer> set = new HashSet<>();
 
 
-        LinkedListNode previous = null;
+        Node previous = null;
 
         while (node != null) {
             if (set.contains(node)) {
@@ -21,8 +21,8 @@ public class LinkedListRemoveDuplicates {
         }
     }
 
-    class LinkedListNode {
-        LinkedListNode next;
+    class Node {
         int data;
+        Node next;
     }
 }

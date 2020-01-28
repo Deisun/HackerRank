@@ -9,18 +9,18 @@ public class reverseLinkedList {
         }
     }
 
-    public LinkedNode reverse (LinkedNode head) {
+    public LinkedNode reverse (LinkedNode node) {
         LinkedNode previousNode = null;
 
-        while (head != null) {
+        while (node != null) {
 
             // capture next node first
-            LinkedNode nextNode = head.next;
+            LinkedNode nextNode = node.next;
 
-            head.next = previousNode;
-            previousNode = head;
+            node.next = previousNode;
+            previousNode = node;
 
-            head = nextNode;
+            node = nextNode;
 
 
         }
