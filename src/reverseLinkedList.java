@@ -18,8 +18,8 @@ public class reverseLinkedList {
             LinkedNode nextNode = node.next;
 
             node.next = previousNode;
-            previousNode = node;
 
+            previousNode = node;
             node = nextNode;
 
 
