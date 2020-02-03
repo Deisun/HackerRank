@@ -16,7 +16,7 @@ public class LengthLongestSubstring {
             if (!set.contains(text.charAt(end))) {
                 set.add(text.charAt(end));
                 end++;
-                Math.max(set.size(), max);
+                max = Math.max(set.size(), max);
             } else {
                 set.remove(text.charAt(start));
                 start++;

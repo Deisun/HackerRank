@@ -4,8 +4,6 @@ public class LinkedListRemoveDuplicates {
 
     void deleteDuplicates(Node node) {
         HashSet<Integer> set = new HashSet<>();
-
-
         Node previous = null;
 
         while (node != null) {
