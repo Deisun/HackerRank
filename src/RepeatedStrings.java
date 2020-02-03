@@ -1,7 +1,7 @@
 public class RepeatedStrings {
     public static void main(String[] args) {
         String s = "aba";
-        long n =  9;
+        long n =  10;
         long count = 0;
         long factor = n/s.length();
         long remainder = n % s.length();

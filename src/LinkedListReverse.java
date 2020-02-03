@@ -1,4 +1,4 @@
-public class reverseLinkedList {
+public class LinkedListReverse {
 
 
     private class LinkedNode {
