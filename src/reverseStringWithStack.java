@@ -12,7 +12,7 @@ public class reverseStringWithStack {
 
     private static String reverseString(String text) {
         StringBuilder reverse = new StringBuilder();
-        Stack<Character> stack = new Stack<Character>();
+        Stack<Character> stack = new Stack<>();
 
         for (char c : text.toCharArray()) {
             stack.push(c);

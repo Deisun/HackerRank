@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 public class fibonacci3 {
-
     public static void main(String[] args) {
         int num = 7;
         int [] cache = new int [num+1];
@@ -17,7 +16,7 @@ public class fibonacci3 {
             return cache[num];
         }
 
-        return fibo(num - 1, cache) + fibo(num - 2, cache);
+        return fibo(num-1, cache) + fibo(num-2, cache);
 
     }
 }
