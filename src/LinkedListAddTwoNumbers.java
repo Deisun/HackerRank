@@ -1,4 +1,4 @@
-public class LinkedListAddTwoNumbers {
+public class AddTwoNumbersLinkedList {
 
     private class ListNode {
         int val;
@@ -11,12 +11,14 @@ public class LinkedListAddTwoNumbers {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
-
         ListNode dummyHead = new ListNode(0);
         ListNode l3 = dummyHead;
 
+
         int carry = 0;
+
         while (l1 != null || l2 != null) {
+
             int l1Value = (l1 != null) ? l1.val : 0;
             int l2Value = (l2 != null) ? l2.val : 0;
 
@@ -36,9 +38,10 @@ public class LinkedListAddTwoNumbers {
             }
 
             l3 = l3.next;
+
         }
 
-        return dummyHead.next;
+        return l3;
     }
 
 
