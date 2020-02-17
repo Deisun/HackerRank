@@ -7,7 +7,7 @@ public class LinkedListRemoveDuplicates {
         Node previous = null;
 
         while (node != null) {
-            if (set.contains(node)) {
+            if (set.contains(node.data)) {
                 // remove node
                 previous.next = node.next;
             } else {
