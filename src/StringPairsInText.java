@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class VMware_Interview {
+public class StringPairsInText {
     public static void main(String[] args) {
         Map<String, Integer> map = new HashMap<>();
         String text = "hello world vmware, hello world!!!";
