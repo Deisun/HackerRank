@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class FirstNoneRepeatingCharacter {
+public class FirstNonRepeatingCharacter {
 
     public static void main(String[] args) {
 
