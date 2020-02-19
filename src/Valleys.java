@@ -1,4 +1,4 @@
-public class valleys {
+public class Valleys {
 
     public static void main(String[] args) {
 
